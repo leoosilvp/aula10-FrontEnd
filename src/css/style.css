@@ -137,14 +137,11 @@ input {
 }
 
 #lista p:hover {
-    scale: 1.03;
-}
-
-#lista p:active {
     scale: 0.95;
     opacity: 0.5;
     text-decoration: line-through;
 }
+
 
 @media(width < 720px) {
     input {
